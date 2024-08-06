@@ -1,0 +1,50 @@
+﻿@page "/fuelprices"
+@using BlazorApp1.Models
+@using BlazorApp1.Services
+@inject FuelPriceService FuelPriceService
+@using BlazorBootstrap
+<PageTitle>Fuel Prices</PageTitle>
+
+<h3>Fuel Prices</h3>
+
+@if (miles95Prices == null || dieselPrices == null)
+{
+<p><em>Loading...</em></p>
+}
+else
+{
+<LineChart Data="@miles95ChartData" Title="Miles95 Prices" />
+<LineChart Data="@dieselChartData" Title="Diesel Prices" />
+}
+
+@code {
+private List<FuelPrice> miles95Prices;
+private List<FuelPrice> dieselPrices;
+
+private List<ChartDataset> miles95ChartData;
+private List<ChartDataset> dieselChartData;
+
+protected override async Task OnInitializedAsync()
+{
+miles95Prices = await FuelPriceService.GetMiles95Prices();
+dieselPrices = await FuelPriceService.GetDieselPrices();
+
+miles95ChartData = new List<ChartDataset>
+{
+new ChartDataset
+{
+Label = "Miles95",
+Data = miles95Prices.Select(p => p.Price).ToList()
+}
+};
+
+dieselChartData = new List<ChartDataset>
+{
+new ChartDataset
+{
+Label = "Diesel",
+Data = dieselPrices.Select(p => p.Price).ToList()
+}
+};
+}
+}

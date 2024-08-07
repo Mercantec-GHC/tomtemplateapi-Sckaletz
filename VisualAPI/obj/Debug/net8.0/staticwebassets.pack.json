@@ -1,43 +1,43 @@
 {
   "Files": [
     {
-      "Id": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\obj\\Debug\\net8.0\\compressed\\9t4zihda3q.gz",
+      "Id": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\obj\\Debug\\net8.0\\compressed\\9t4zihda3q.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VisualAPI.styles.css",
+      "Id": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\VisualAPI.styles.css",
       "PackagePath": "staticwebassets\\VisualAPI.styles.css"
     },
     {
-      "Id": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\wwwroot\\index.html",
+      "Id": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/nO++nnmjsRUED5Mxsit0KNO0dDXlVdyDboQepqBAK1tpWWWOnYo8kABDnhODQvSr2VjwZhpOiosq5C60tdT4g==",
+  "dgSpecHash": "LmFpvWQ4k3VujK4QNpIR0F+0RJC004p3jvqGVDS8885ouje9EvnWRvd1sa5XgQ0lUJUlE54XjEoh5d3zmpnI5w==",
   "success": true,
-  "projectFilePath": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\VisualAPI.csproj",
+  "projectFilePath": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\VisualAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sck\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.7\\microsoft.aspnetcore.authorization.8.0.7.nupkg.sha512",
     "C:\\Users\\sck\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.7\\microsoft.aspnetcore.components.8.0.7.nupkg.sha512",

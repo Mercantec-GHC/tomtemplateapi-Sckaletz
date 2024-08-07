@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C-Sharp\\VisualAPI\\VisualAPI\\VisualAPI.csproj": {}
+    "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\VisualAPI.csproj": {}
   },
   "projects": {
-    "D:\\C-Sharp\\VisualAPI\\VisualAPI\\VisualAPI.csproj": {
+    "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\VisualAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\VisualAPI.csproj",
+        "projectUniqueName": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\VisualAPI.csproj",
         "projectName": "VisualAPI",
-        "projectPath": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\VisualAPI.csproj",
+        "projectPath": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\VisualAPI.csproj",
         "packagesPath": "C:\\Users\\sck\\.nuget\\packages\\",
-        "outputPath": "D:\\C-Sharp\\VisualAPI\\VisualAPI\\obj\\",
+        "outputPath": "C:\\Users\\sck\\Documents\\GitHub\\tomtemplateapi-Sckaletz\\VisualAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sck\\AppData\\Roaming\\NuGet\\NuGet.Config",

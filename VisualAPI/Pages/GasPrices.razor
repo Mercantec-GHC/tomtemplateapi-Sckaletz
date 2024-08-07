@@ -7,44 +7,42 @@
 
 @if (gasprices == null)
 {
-<p>
-    <em>Loading...</em>
-</p>
+    <p>
+        <em>Loading...</em>
+    </p>
 }
 else
 {
-<table class="table">
-    <thead>
-    <tr>
-        <th>Date</th>
-        <th>Price</th>
-    </tr>
-    </thead>
-    <tbody>
-    @foreach (var result in gasprices)
-    {
-    <tr>
-        <td>@result.Date</td>
-        <td>@result.Price</td>
-    </tr>
-    }
-    </tbody>
-</table>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Date</th>
+            <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var result in gasprices)
+        {
+            <tr>
+                <td>@result.Date</td>
+                <td>@result.Price</td>
+            </tr>
+        }
+        </tbody>
+    </table>
 }
 
 @code {
-private GasPrice[]? gasprices;
+    private GasPrice[]? gasprices;
 
-protected override async Task OnInitializedAsync()
-{
-gasprices = await Http.GetFromJsonAsync<GasPrice[]>("https://magsapi.onrender.com/api/miles95");
-}
+    protected override async Task OnInitializedAsync()
+    {
+        gasprices = await Http.GetFromJsonAsync<GasPrice[]>("https://magsapi.onrender.com/api/miles95");
+    }
 
-public class GasPrice
-{
-public string Date { get; set; }
-
-public string Price { get; set; }
-}
-
+    public class GasPrice
+    {
+        public string Date { get; set; }
+        public string Price { get; set; }
+    }
 }

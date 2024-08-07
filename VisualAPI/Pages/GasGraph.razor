@@ -5,4 +5,62 @@
 
 <h1>Gasprices</h1>
 
+<h2>Miles 95 Gas Prices</h2>
+@if (miles95prices == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <ApexChart TItem="PriceData"
+               Title="Miles 95 Gas Prices">
 
+        <ApexPointSeries TItem="PriceData"
+                         Items="miles95prices"
+                         Name="Miles 95 Price"
+                         SeriesType="SeriesType.Line"
+                         XValue="@(e => e.Date)"
+                         YValue="@(e => e.Price)"/>
+    </ApexChart>
+}
+
+<h2>Diesel Prices</h2>
+@if (dieselPrices == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else
+{
+    <ApexChart TItem="PriceData"
+               Title="Diesel Prices">
+
+        <ApexPointSeries TItem="PriceData"
+                         Items="dieselPrices"
+                         Name="Diesel Price"
+                         SeriesType="SeriesType.Line"
+                         XValue="@(e => e.Date)"
+                         YValue="@(e => e.Price)"/>
+    </ApexChart>
+}
+
+@code {
+    private PriceData[]? miles95prices;
+    private PriceData[]? dieselPrices;
+
+    protected override async Task OnInitializedAsync()
+    {
+        miles95prices = await Http.GetFromJsonAsync<PriceData[]>("https://magsapi.onrender.com/api/miles95");
+        dieselPrices = await Http.GetFromJsonAsync<PriceData[]>("https://magsapi.onrender.com/api/diesel");
+    }
+
+    public class PriceData
+    {
+        public string Date { get; set; }
+        public decimal Price { get; set; }
+    }
+
+}

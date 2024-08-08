@@ -62,24 +62,18 @@ else
 }
 
 @code {
-    private Miles95Price[]? miles95prices;
-    private DieselPrice[]? dieselPrices;
+    private PriceData[]? miles95prices;
+    private PriceData[]? dieselPrices;
 
     protected override async Task OnInitializedAsync()
     {
-        miles95prices = await Http.GetFromJsonAsync<Miles95Price[]>("https://magsapi.onrender.com/api/miles95");
-        dieselPrices = await Http.GetFromJsonAsync<DieselPrice[]>("https://magsapi.onrender.com/api/diesel");
+        miles95prices = await Http.GetFromJsonAsync<PriceData[]>("https://magsapi.onrender.com/api/miles95");
+        dieselPrices = await Http.GetFromJsonAsync<PriceData[]>("https://magsapi.onrender.com/api/diesel");
     }
 
-    public class Miles95Price
+    public class PriceData
     {
-        public string Date { get; set; }
-        public string Price { get; set; }
-    }
-
-    public class DieselPrice
-    {
-        public string Date { get; set; }
-        public string Price { get; set; }
+        public DateTime Date { get; set; }
+        public decimal Price { get; set; }
     }
 }
